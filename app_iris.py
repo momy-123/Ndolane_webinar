@@ -1,5 +1,6 @@
 import streamlit as st
-from sklearn.externals import joblib
+import sklearn.externals as extjoblib
+import joblib
 import numpy as np
 model = joblib.load("iris_model.pkl")
 
