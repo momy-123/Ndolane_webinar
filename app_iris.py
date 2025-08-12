@@ -1,5 +1,5 @@
 import streamlit as st
-from sklearn import joblib
+import joblib
 import numpy as np
 model = joblib.load("iris_model.pkl")
 
