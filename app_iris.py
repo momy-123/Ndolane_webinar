@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
-del = joblib.load("iris_model.pkl")
+model = joblib.load("iris_model.pkl")
 
 st.title("Prediction de l'espèce Iris")
 st.write("Entrz les caractéristiques de la fleur pour prédire son espèce")
